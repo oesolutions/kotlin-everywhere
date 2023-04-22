@@ -1,0 +1,14 @@
+[versions]
+kotlin = "1.8.20"
+kotlin-wrappers = "1.0.0-pre.537"
+
+[plugins]
+kotlin-js = { id = "org.jetbrains.kotlin.js", version.ref = "kotlin" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+
+[libraries]
+kotlin-wrappers-bom = { module = "org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom", version.ref = "kotlin-wrappers" }
+kotlin-wrappers-browser = { module = "org.jetbrains.kotlin-wrappers:kotlin-browser" }
+kotlin-wrappers-emotion = { module = "org.jetbrains.kotlin-wrappers:kotlin-emotion" }
+kotlin-wrappers-react = { module = "org.jetbrains.kotlin-wrappers:kotlin-react" }
+kotlin-wrappers-react-dom = { module = "org.jetbrains.kotlin-wrappers:kotlin-react-dom" }
